@@ -5,5 +5,10 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
-
+basic1 = "python basic1.py"
+basic2 = "python basic2.py"
+basic3 = "python basic3.py"
+basic4 = "python basic4.py"
+basic5 = "python basic5.py"
 [dependencies]
+opencv = ">=4.13.0,<5"
